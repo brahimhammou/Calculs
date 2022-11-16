@@ -71,7 +71,7 @@ namespace Calculs
                                 Console.WriteLine("Erreur de saisie. Veuillez entrer un nombre entier");
                             }
                         }
-                                      // comparaison avec la bonne réponse
+                                         // comparaison avec la bonne réponse
                         solution = val1 + val2;
                         if (reponse == solution)
                         {
