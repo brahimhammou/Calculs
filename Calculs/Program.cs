@@ -71,7 +71,11 @@ namespace Calculs
                                 Console.WriteLine("Erreur de saisie. Veuillez entrer un nombre entier");
                             }
                         }
+
                        // comparaison avec la bonne réponse
+
+                                         // comparaison avec la bonne réponse
+
                         solution = val1 + val2;
                         if (reponse == solution)
                         {
@@ -84,12 +88,12 @@ namespace Calculs
                     }
                     else
                     {
-                        // choix de la multiplication
+                                             // choix de la multiplication
                         val1 = rand.Next(1, 10);
                         val2 = rand.Next(1, 10);                                               
                        while (!correct1)
                         {
-                            // saisie de la réponse
+                                               // saisie de la réponse
                             Console.Write(val1 + " x " + val2 + " = ");
                             try
                             {
